@@ -139,6 +139,7 @@ int main() {
 
 	char command[130];
 
+	printf("You can move/attack/heal/poop\n");
 	printf("Tell me what you wanna do:\n");
 	scanf_s(" %[^\n]s", command, 130);
 
